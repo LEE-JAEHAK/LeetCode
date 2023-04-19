@@ -6,5 +6,6 @@ class Solution:
                 continue
             res += i
         res = res.lower()
-        a = list(res)
-        return a == list(reversed(a))
+        # a = list(res)
+        # return a == list(reversed(a))
+        return res == res[::-1]
